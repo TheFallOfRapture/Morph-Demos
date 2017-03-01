@@ -1,8 +1,8 @@
-package com.fate.game.shooting.entities.components;
+package com.morph.game.shooting.entities.components;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.entities.Entity;
-import com.fate.game.shooting.entities.components.attacks.AttackData;
+import com.morph.engine.entities.Component;
+import com.morph.engine.entities.Entity;
+import com.morph.game.shooting.entities.components.attacks.AttackData;
 
 import java.util.function.Consumer;
 

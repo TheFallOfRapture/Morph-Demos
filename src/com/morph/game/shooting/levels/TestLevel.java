@@ -1,12 +1,12 @@
-package com.fate.game.shooting.levels;
+package com.morph.game.shooting.levels;
 
-import com.fate.engine.core.Game;
-import com.fate.game.shooting.entities.powerups.SpeedBoostEntity;
-import com.fate.game.shooting.entities.powerups.JumpBoostEntity;
-import com.fate.game.shooting.graphics.shaders.BasicTexturedShader;
-import com.fate.game.shooting.levels.tiles.TileBlueBlock;
-import com.fate.game.shooting.levels.tiles.TileGreenBlock;
-import com.fate.game.shooting.levels.tiles.TileRedBlock;
+import com.morph.engine.core.Game;
+import com.morph.game.shooting.entities.powerups.SpeedBoostEntity;
+import com.morph.game.shooting.entities.powerups.JumpBoostEntity;
+import com.morph.game.shooting.graphics.shaders.BasicTexturedShader;
+import com.morph.game.shooting.levels.tiles.TileBlueBlock;
+import com.morph.game.shooting.levels.tiles.TileGreenBlock;
+import com.morph.game.shooting.levels.tiles.TileRedBlock;
 
 public class TestLevel extends PlatformerLevel {
 	private static int width = 40;

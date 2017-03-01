@@ -1,11 +1,11 @@
-package com.fate.game.shooting.systems;
+package com.morph.game.shooting.systems;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.physics.components.Gravity;
-import com.fate.engine.physics.components.Velocity2D;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.physics.components.Gravity;
+import com.morph.engine.physics.components.Velocity2D;
 
 public class PhysicsWorld extends GameSystem {
 	private static final Vector2f GRAVITY = new Vector2f(0, -50f);

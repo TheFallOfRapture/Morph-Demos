@@ -1,6 +1,6 @@
-package com.fate.game.shooting;
+package com.morph.game.shooting;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 public class ShootingGameLauncher {
 	private static GameApplication gameLauncher;

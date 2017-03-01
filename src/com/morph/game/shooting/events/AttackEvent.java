@@ -1,9 +1,9 @@
-package com.fate.game.shooting.events;
+package com.morph.game.shooting.events;
 
-import com.fate.engine.entities.Entity;
-import com.fate.engine.events.EntityEvent;
-import com.fate.engine.events.Event;
-import com.fate.engine.math.Vector2f;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.events.EntityEvent;
+import com.morph.engine.events.Event;
+import com.morph.engine.math.Vector2f;
 
 /**
  * Created by Fernando on 1/9/2017.

@@ -1,14 +1,14 @@
-package com.fate.game.shooting.entities.components.attacks;
+package com.morph.game.shooting.entities.components.attacks;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.input.Mouse;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.physics.components.Transform2D;
-import com.fate.engine.physics.components.Velocity2D;
-import com.fate.game.shooting.ShootingGame;
-import com.fate.game.shooting.entities.components.AttackProjectile;
-import com.fate.game.shooting.events.AttackEvent;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.input.Mouse;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.physics.components.Transform2D;
+import com.morph.engine.physics.components.Velocity2D;
+import com.morph.game.shooting.ShootingGame;
+import com.morph.game.shooting.entities.components.AttackProjectile;
+import com.morph.game.shooting.events.AttackEvent;
 
 import java.util.function.Consumer;
 

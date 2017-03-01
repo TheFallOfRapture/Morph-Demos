@@ -1,7 +1,7 @@
-package com.fate.game.shooting.levels.tiles;
+package com.morph.game.shooting.levels.tiles;
 
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.tiles.Tile;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.tiles.Tile;
 
 public class TileBlueBlock extends Tile {
 	public TileBlueBlock(int x, int y, float tileSize) {

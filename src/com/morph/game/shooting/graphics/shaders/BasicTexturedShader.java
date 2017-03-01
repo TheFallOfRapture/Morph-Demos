@@ -1,6 +1,6 @@
-package com.fate.game.shooting.graphics.shaders;
+package com.morph.game.shooting.graphics.shaders;
 
-import com.fate.engine.graphics.Shader;
+import com.morph.engine.graphics.Shader;
 
 public class BasicTexturedShader extends Shader<BasicTexturedShaderUniforms> {
 	public BasicTexturedShader() {

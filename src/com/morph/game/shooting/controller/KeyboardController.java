@@ -1,9 +1,9 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.input.Keyboard;
-import com.fate.engine.math.Vector2f;
-import com.fate.game.shooting.controller.WalkCommand.Direction;
+import com.morph.engine.entities.Component;
+import com.morph.engine.input.Keyboard;
+import com.morph.engine.math.Vector2f;
+import com.morph.game.shooting.controller.WalkCommand.Direction;
 
 public class KeyboardController extends Component {
 	private MovementCommand jumpCommand;

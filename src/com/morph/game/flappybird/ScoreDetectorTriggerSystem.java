@@ -1,8 +1,8 @@
-package com.fate.game.flappybird;
+package com.morph.game.flappybird;
 
-import com.fate.engine.collision.components.TriggerComponent;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
+import com.morph.engine.collision.components.TriggerComponent;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
 
 public class ScoreDetectorTriggerSystem extends GameSystem {
 	public ScoreDetectorTriggerSystem(FlappyBirdGame game) {

@@ -1,12 +1,12 @@
-package com.fate.game.shooting.levels.tiles;
+package com.morph.game.shooting.levels.tiles;
 
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.math.Vector2f;
-import com.fate.game.shooting.entities.components.Block;
-import com.fate.game.shooting.entities.components.Health;
-import com.fate.game.shooting.graphics.shaders.BasicTexturedShader;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.math.Vector2f;
+import com.morph.game.shooting.entities.components.Block;
+import com.morph.game.shooting.entities.components.Health;
+import com.morph.game.shooting.graphics.shaders.BasicTexturedShader;
 
 public class BlockEntity extends EntityRectangle {
 	public BlockEntity(Vector2f position, float size, Color color, boolean isTrigger) {

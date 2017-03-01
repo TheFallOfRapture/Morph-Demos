@@ -1,16 +1,16 @@
-package com.fate.game.shooting.entities;
+package com.morph.game.shooting.entities;
 
 import static org.lwjgl.glfw.GLFW.*;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Shader;
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.physics.components.Gravity;
-import com.fate.engine.physics.components.Velocity2D;
-import com.fate.game.shooting.controller.KeyboardController;
-import com.fate.game.shooting.entities.components.Health;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Shader;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.physics.components.Gravity;
+import com.morph.engine.physics.components.Velocity2D;
+import com.morph.game.shooting.controller.KeyboardController;
+import com.morph.game.shooting.entities.components.Health;
 
 public class Player extends EntityRectangle {
 	public Player(int x, int y, int width, int height, Color color, Shader<?> shader) {

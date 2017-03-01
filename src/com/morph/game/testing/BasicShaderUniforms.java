@@ -1,9 +1,9 @@
-package com.fate.game.testing;
+package com.morph.game.testing;
 
-import com.fate.engine.graphics.Uniforms;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.engine.math.Matrix4f;
-import com.fate.engine.physics.components.Transform;
+import com.morph.engine.graphics.Uniforms;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.engine.math.Matrix4f;
+import com.morph.engine.physics.components.Transform;
 
 public class BasicShaderUniforms extends Uniforms {
 	private Matrix4f mvp;

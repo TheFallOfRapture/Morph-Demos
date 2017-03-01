@@ -1,7 +1,7 @@
-package com.fate.game.shooting.entities.components.powerups;
+package com.morph.game.shooting.entities.components.powerups;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.entities.Entity;
+import com.morph.engine.entities.Component;
+import com.morph.engine.entities.Entity;
 
 public abstract class PowerUp extends Component {
 	@Override

@@ -1,18 +1,18 @@
-package com.fate.game.shooting.entities;
+package com.morph.game.shooting.entities;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Shader;
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.engine.graphics.shaders.BasicTexturedShader;
-import com.fate.engine.physics.components.Gravity;
-import com.fate.engine.physics.components.Velocity2D;
-import com.fate.game.shooting.entities.components.Attacker;
-import com.fate.game.shooting.entities.components.attacks.Attack;
-import com.fate.game.shooting.entities.components.attacks.AttackData;
-import com.fate.game.shooting.entities.components.attacks.MouseProjectileAttack;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Shader;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.engine.graphics.shaders.BasicTexturedShader;
+import com.morph.engine.physics.components.Gravity;
+import com.morph.engine.physics.components.Velocity2D;
+import com.morph.game.shooting.entities.components.Attacker;
+import com.morph.game.shooting.entities.components.attacks.Attack;
+import com.morph.game.shooting.entities.components.attacks.AttackData;
+import com.morph.game.shooting.entities.components.attacks.MouseProjectileAttack;
 
 public class PuzzlePlayer extends EntityRectangle {
 	public PuzzlePlayer(float x, float y, float width, float height, Shader<?> shader, Game game) {

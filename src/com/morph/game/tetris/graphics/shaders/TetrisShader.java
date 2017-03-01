@@ -1,6 +1,6 @@
-package com.fate.game.tetris.graphics.shaders;
+package com.morph.game.tetris.graphics.shaders;
 
-import com.fate.engine.graphics.Shader;
+import com.morph.engine.graphics.Shader;
 
 public class TetrisShader extends Shader<TetrisShaderUniforms> {
 	public TetrisShader() {

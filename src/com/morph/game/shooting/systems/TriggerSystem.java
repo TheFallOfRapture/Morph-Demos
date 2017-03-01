@@ -1,23 +1,23 @@
-package com.fate.game.shooting.systems;
+package com.morph.game.shooting.systems;
 
-import com.fate.engine.collision.components.BoundingBox2D;
-import com.fate.engine.collision.components.TriggerComponent;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.events.EventDispatcher;
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.math.Vector3f;
-import com.fate.engine.physics.components.Velocity2D;
-import com.fate.game.shooting.ShootingGame;
-import com.fate.game.shooting.controller.KeyboardController;
-import com.fate.game.shooting.entities.components.AttackProjectile;
-import com.fate.game.shooting.entities.components.Block;
-import com.fate.game.shooting.entities.components.Health;
-import com.fate.game.shooting.entities.components.Mirror;
-import com.fate.game.shooting.entities.components.powerups.PowerUp;
-import com.fate.game.shooting.events.DamageEvent;
+import com.morph.engine.collision.components.BoundingBox2D;
+import com.morph.engine.collision.components.TriggerComponent;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.events.EventDispatcher;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.math.Vector3f;
+import com.morph.engine.physics.components.Velocity2D;
+import com.morph.game.shooting.ShootingGame;
+import com.morph.game.shooting.controller.KeyboardController;
+import com.morph.game.shooting.entities.components.AttackProjectile;
+import com.morph.game.shooting.entities.components.Block;
+import com.morph.game.shooting.entities.components.Health;
+import com.morph.game.shooting.entities.components.Mirror;
+import com.morph.game.shooting.entities.components.powerups.PowerUp;
+import com.morph.game.shooting.events.DamageEvent;
 
 public class TriggerSystem extends GameSystem {
 	public TriggerSystem(ShootingGame game) {

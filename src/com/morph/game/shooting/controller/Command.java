@@ -1,6 +1,6 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
-import com.fate.engine.entities.Entity;
+import com.morph.engine.entities.Entity;
 
 @FunctionalInterface
 public interface Command {

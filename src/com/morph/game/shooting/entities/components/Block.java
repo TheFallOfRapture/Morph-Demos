@@ -1,11 +1,11 @@
-package com.fate.game.shooting.entities.components;
+package com.morph.game.shooting.entities.components;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Texture;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.game.shooting.block.State;
-import com.fate.game.shooting.block.StateMachine;
+import com.morph.engine.entities.Component;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Texture;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.game.shooting.block.State;
+import com.morph.game.shooting.block.StateMachine;
 
 public class Block extends Component {
 	private StateMachine stateMachine;

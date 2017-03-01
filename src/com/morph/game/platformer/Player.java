@@ -1,9 +1,9 @@
-package com.fate.game.platformer;
+package com.morph.game.platformer;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Shader;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Shader;
 
 public class Player extends EntityRectangle {
 	public Player(Game game, int x, int y, int width, int height, Shader shader) {

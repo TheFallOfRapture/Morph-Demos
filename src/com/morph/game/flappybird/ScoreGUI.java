@@ -1,10 +1,10 @@
-package com.fate.game.flappybird;
+package com.morph.game.flappybird;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
-import com.fate.engine.graphics.gui.GUI;
-import com.fate.engine.graphics.gui.GUITextElement;
+import com.morph.engine.graphics.gui.GUI;
+import com.morph.engine.graphics.gui.GUITextElement;
 
 public class ScoreGUI extends GUI {
 	private GUITextElement score;

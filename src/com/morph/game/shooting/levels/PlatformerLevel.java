@@ -1,13 +1,13 @@
-package com.fate.game.shooting.levels;
+package com.morph.game.shooting.levels;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.graphics.Shader;
-import com.fate.engine.tiles.Tile;
-import com.fate.engine.tiles.Tilemap;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.graphics.Shader;
+import com.morph.engine.tiles.Tile;
+import com.morph.engine.tiles.Tilemap;
 
 public class PlatformerLevel {
 	protected Tilemap tilemap;

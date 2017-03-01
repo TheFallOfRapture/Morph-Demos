@@ -1,6 +1,6 @@
- package com.fate.game.flappybird;
+ package com.morph.game.flappybird;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 public class FlappyBirdLauncher {
 	private static GameApplication gameLauncher;

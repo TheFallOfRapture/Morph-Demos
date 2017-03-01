@@ -1,10 +1,10 @@
-package com.fate.game.shooting.entities.components;
+package com.morph.game.shooting.entities.components;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.events.EventDispatcher;
-import com.fate.engine.events.EventListener;
-import com.fate.game.shooting.ShootingGame;
-import com.fate.game.shooting.events.DamageEvent;
+import com.morph.engine.entities.Component;
+import com.morph.engine.events.EventDispatcher;
+import com.morph.engine.events.EventListener;
+import com.morph.game.shooting.ShootingGame;
+import com.morph.game.shooting.events.DamageEvent;
 
 public class Health extends Component {
 	private int currentHealth;

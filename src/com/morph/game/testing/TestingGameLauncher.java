@@ -1,6 +1,6 @@
-package com.fate.game.testing;
+package com.morph.game.testing;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 public class TestingGameLauncher {
 	private static GameApplication gameLauncher;

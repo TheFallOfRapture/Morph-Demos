@@ -1,8 +1,8 @@
-package com.fate.game.shooting.levels;
+package com.morph.game.shooting.levels;
 
-import com.fate.engine.core.Game;
-import com.fate.game.shooting.graphics.shaders.BasicTexturedShader;
-import com.fate.game.shooting.levels.tiles.TileBlackBlock;
+import com.morph.engine.core.Game;
+import com.morph.game.shooting.graphics.shaders.BasicTexturedShader;
+import com.morph.game.shooting.levels.tiles.TileBlackBlock;
 
 public class SecondTestLevel extends PlatformerLevel {
 	public SecondTestLevel(Game game) {

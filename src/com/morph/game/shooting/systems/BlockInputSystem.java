@@ -1,16 +1,16 @@
-package com.fate.game.shooting.systems;
+package com.morph.game.shooting.systems;
 
-import com.fate.engine.collision.components.BoundingBox2D;
-import com.fate.engine.core.Game;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.GLRenderingEngine;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.engine.input.Mouse;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.math.Vector4f;
-import com.fate.game.shooting.entities.components.Block;
+import com.morph.engine.collision.components.BoundingBox2D;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.GLRenderingEngine;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.engine.input.Mouse;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.math.Vector4f;
+import com.morph.game.shooting.entities.components.Block;
 
 public class BlockInputSystem extends GameSystem {
 	public BlockInputSystem(Game game) {

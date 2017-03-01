@@ -1,6 +1,6 @@
-package com.fate.game.tetris;
+package com.morph.game.tetris;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 public class TetrisGameLauncher {
     private static GameApplication gameLauncher;

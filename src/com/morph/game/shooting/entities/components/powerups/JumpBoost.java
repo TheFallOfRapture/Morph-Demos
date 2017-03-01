@@ -1,7 +1,7 @@
-package com.fate.game.shooting.entities.components.powerups;
+package com.morph.game.shooting.entities.components.powerups;
 
-import com.fate.engine.entities.Entity;
-import com.fate.game.shooting.controller.KeyboardController;
+import com.morph.engine.entities.Entity;
+import com.morph.game.shooting.controller.KeyboardController;
 
 public class JumpBoost extends PowerUp {
 	private float jumpModifier;

@@ -1,10 +1,10 @@
-package com.fate.game.shooting.entities.powerups;
+package com.morph.game.shooting.entities.powerups;
 
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Shader;
-import com.fate.engine.graphics.Texture;
-import com.fate.game.shooting.entities.components.powerups.JumpBoost;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Shader;
+import com.morph.engine.graphics.Texture;
+import com.morph.game.shooting.entities.components.powerups.JumpBoost;
 
 public class JumpBoostEntity extends EntityRectangle {
 	public JumpBoostEntity(float x, float y, Shader<?> shader) {

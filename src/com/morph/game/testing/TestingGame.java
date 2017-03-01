@@ -1,9 +1,9 @@
-package com.fate.game.testing;
+package com.morph.game.testing;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.core.OpenGame;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.math.MatrixUtils;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.OpenGame;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.math.MatrixUtils;
 
 public class TestingGame extends OpenGame {
 	private TestEntity e;

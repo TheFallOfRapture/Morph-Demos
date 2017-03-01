@@ -1,6 +1,6 @@
-package com.fate.game.flash;
+package com.morph.game.flash;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 /**
  * Created by Fernando on 1/19/2017.

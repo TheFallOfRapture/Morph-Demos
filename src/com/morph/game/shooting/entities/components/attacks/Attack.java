@@ -1,8 +1,8 @@
-package com.fate.game.shooting.entities.components.attacks;
+package com.morph.game.shooting.entities.components.attacks;
 
-import com.fate.engine.entities.Entity;
-import com.fate.game.shooting.controller.Actionable;
-import com.fate.game.shooting.events.AttackEvent;
+import com.morph.engine.entities.Entity;
+import com.morph.game.shooting.controller.Actionable;
+import com.morph.game.shooting.events.AttackEvent;
 
 /**
  * Created by Fernando on 1/9/2017.

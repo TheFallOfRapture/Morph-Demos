@@ -1,10 +1,10 @@
-package com.fate.game.shooting.block;
+package com.morph.game.shooting.block;
 
 import java.util.HashMap;
 import java.util.function.Consumer;
 
-import com.fate.engine.entities.Component;
-import com.fate.engine.entities.Entity;
+import com.morph.engine.entities.Component;
+import com.morph.engine.entities.Entity;
 
 public class StateMachine {
 	private State currentState;

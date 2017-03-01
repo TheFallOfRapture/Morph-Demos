@@ -1,10 +1,10 @@
-package com.fate.game.flappybird;
+package com.morph.game.flappybird;
 
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Shader;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.physics.components.RigidBody;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Shader;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.physics.components.RigidBody;
 
 public class Player extends EntityRectangle {
 	public Player(int x, int y, int width, int height, Color color, float mass, Shader<?> shader) {

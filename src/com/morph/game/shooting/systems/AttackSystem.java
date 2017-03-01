@@ -1,10 +1,10 @@
-package com.fate.game.shooting.systems;
+package com.morph.game.shooting.systems;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
-import com.fate.game.shooting.entities.components.Attacker;
-import com.fate.game.shooting.entities.components.attacks.Attack;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
+import com.morph.game.shooting.entities.components.Attacker;
+import com.morph.game.shooting.entities.components.attacks.Attack;
 
 /**
  * Created by Fernando on 1/12/2017.

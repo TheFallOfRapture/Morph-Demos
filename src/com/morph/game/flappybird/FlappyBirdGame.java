@@ -1,24 +1,24 @@
-package com.fate.game.flappybird;
+package com.morph.game.flappybird;
 
 import java.util.Iterator;
 
 import static org.lwjgl.glfw.GLFW.*;
 
-import com.fate.engine.collision.CollisionEngine;
-import com.fate.engine.collision.components.BoundingBox2D;
-import com.fate.engine.collision.components.CollisionComponent;
-import com.fate.engine.core.Game;
-import com.fate.engine.core.OpenGame;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.events.EventDispatcher;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.GLRenderingEngine;
-import com.fate.engine.input.Keyboard;
-import com.fate.engine.math.MatrixUtils;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.physics.components.RigidBody;
-import com.fate.engine.physics.components.Transform2D;
+import com.morph.engine.collision.CollisionEngine;
+import com.morph.engine.collision.components.BoundingBox2D;
+import com.morph.engine.collision.components.CollisionComponent;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.OpenGame;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.events.EventDispatcher;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.GLRenderingEngine;
+import com.morph.engine.input.Keyboard;
+import com.morph.engine.math.MatrixUtils;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.physics.components.RigidBody;
+import com.morph.engine.physics.components.Transform2D;
 
 public class FlappyBirdGame extends OpenGame {
 	private final float timeBetweenObstacles = 1.5f; // Time in seconds between obstacles.

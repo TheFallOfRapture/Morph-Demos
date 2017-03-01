@@ -1,6 +1,6 @@
-package com.fate.game.testing;
+package com.morph.game.testing;
 
-import com.fate.engine.graphics.Shader;
+import com.morph.engine.graphics.Shader;
 
 public class BasicShader extends Shader<BasicShaderUniforms> {
 	public BasicShader() {

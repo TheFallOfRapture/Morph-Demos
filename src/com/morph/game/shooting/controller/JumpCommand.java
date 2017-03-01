@@ -1,7 +1,7 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
-import com.fate.engine.entities.Entity;
-import com.fate.engine.math.Vector2f;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.math.Vector2f;
 
 public class JumpCommand extends MovementCommand {
 	private float jumpHeight;

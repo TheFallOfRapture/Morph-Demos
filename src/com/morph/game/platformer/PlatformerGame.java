@@ -1,7 +1,7 @@
-package com.fate.game.platformer;
+package com.morph.game.platformer;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.core.OpenGame;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.OpenGame;
 
 public class PlatformerGame extends OpenGame {
 	public PlatformerGame(int width, int height, float fps, boolean fullscreen) {

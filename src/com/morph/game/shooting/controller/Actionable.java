@@ -1,4 +1,4 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
 /**
  * Created by Fernando on 1/12/2017.

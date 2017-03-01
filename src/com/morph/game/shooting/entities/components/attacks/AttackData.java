@@ -1,4 +1,4 @@
-package com.fate.game.shooting.entities.components.attacks;
+package com.morph.game.shooting.entities.components.attacks;
 
 /**
  * Created by Fernando on 1/11/2017.

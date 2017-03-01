@@ -1,10 +1,10 @@
-package com.fate.game.shooting.events;
+package com.morph.game.shooting.events;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.events.EntityEvent;
-import com.fate.engine.events.Event;
-import com.fate.game.shooting.entities.components.attacks.AttackData;
+import com.morph.engine.core.Game;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.events.EntityEvent;
+import com.morph.engine.events.Event;
+import com.morph.game.shooting.entities.components.attacks.AttackData;
 
 /**
  * Created by Fernando on 1/11/2017.

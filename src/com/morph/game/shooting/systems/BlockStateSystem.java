@@ -1,11 +1,11 @@
-package com.fate.game.shooting.systems;
+package com.morph.game.shooting.systems;
 
-import com.fate.engine.core.Game;
-import com.fate.engine.core.GameSystem;
-import com.fate.engine.entities.Entity;
-import com.fate.engine.graphics.components.RenderData;
-import com.fate.game.shooting.ShootingGame;
-import com.fate.game.shooting.entities.components.Block;
+import com.morph.engine.core.Game;
+import com.morph.engine.core.GameSystem;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.graphics.components.RenderData;
+import com.morph.game.shooting.ShootingGame;
+import com.morph.game.shooting.entities.components.Block;
 
 public class BlockStateSystem extends GameSystem {
 	public BlockStateSystem(Game game) {

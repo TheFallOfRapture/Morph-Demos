@@ -1,10 +1,10 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
 import java.util.function.Consumer;
 
-import com.fate.engine.entities.Entity;
-import com.fate.engine.math.Vector2f;
-import com.fate.engine.physics.components.Velocity2D;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.math.Vector2f;
+import com.morph.engine.physics.components.Velocity2D;
 
 public class Action {
 	private Consumer<Entity> behavior;

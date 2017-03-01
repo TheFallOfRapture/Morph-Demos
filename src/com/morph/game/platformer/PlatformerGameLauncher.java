@@ -1,6 +1,6 @@
-package com.fate.game.platformer;
+package com.morph.game.platformer;
 
-import com.fate.engine.core.GameApplication;
+import com.morph.engine.core.GameApplication;
 
 public class PlatformerGameLauncher {
 	private static GameApplication gameLauncher;

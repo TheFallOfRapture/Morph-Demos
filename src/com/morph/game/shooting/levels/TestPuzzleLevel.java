@@ -1,14 +1,14 @@
-package com.fate.game.shooting.levels;
+package com.morph.game.shooting.levels;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.fate.engine.entities.Entity;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.math.Vector2f;
-import com.fate.game.shooting.entities.components.Mirror;
-import com.fate.game.shooting.levels.tiles.BlockEntity;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.math.Vector2f;
+import com.morph.game.shooting.entities.components.Mirror;
+import com.morph.game.shooting.levels.tiles.BlockEntity;
 
 public class TestPuzzleLevel extends Level {
 	private float xStart = 24.33f;

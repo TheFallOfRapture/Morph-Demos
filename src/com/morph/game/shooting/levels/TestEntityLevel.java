@@ -1,10 +1,10 @@
-package com.fate.game.shooting.levels;
+package com.morph.game.shooting.levels;
 
-import com.fate.engine.entities.Entity;
-import com.fate.engine.entities.EntityRectangle;
-import com.fate.engine.graphics.Color;
-import com.fate.engine.graphics.Texture;
-import com.fate.game.shooting.graphics.shaders.BasicTexturedShader;
+import com.morph.engine.entities.Entity;
+import com.morph.engine.entities.EntityRectangle;
+import com.morph.engine.graphics.Color;
+import com.morph.engine.graphics.Texture;
+import com.morph.game.shooting.graphics.shaders.BasicTexturedShader;
 
 public class TestEntityLevel extends Level {
 	public TestEntityLevel() {

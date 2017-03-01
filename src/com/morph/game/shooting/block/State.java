@@ -1,4 +1,4 @@
-package com.fate.game.shooting.block;
+package com.morph.game.shooting.block;
 
 public class State {
 	private String name;

@@ -1,4 +1,4 @@
-package com.fate.game.shooting.controller;
+package com.morph.game.shooting.controller;
 
 import java.util.Stack;
 
